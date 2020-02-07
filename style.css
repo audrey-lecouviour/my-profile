@@ -1,0 +1,108 @@
+/* Colors and Fonts */
+
+body  {
+	background-color: white;
+    color: rgb(3, 30, 78);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 17px;
+	line-height: normal;
+}
+
+h1, h2 {
+	font-family: "Overpass", sans-serif;
+    color: #95190C;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a {
+  color: rgb(67, 136, 38);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Customs design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-green {
+	background-color: #389377;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-green:hover{
+	background-color: black;
+	color:white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+/* Customs design with id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+/* Responsive design */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
